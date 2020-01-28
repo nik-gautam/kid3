@@ -1,0 +1,28 @@
+# Site settings
+title: Kid3 - Audio Tagger
+
+# Build settings
+markdown: kramdown
+theme: jekyll-kde-theme
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+collections:
+  changelogs:
+    output: true
+
+navigation:
+  top:
+    - title: Page
+      url: "/"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
