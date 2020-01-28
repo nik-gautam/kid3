@@ -1,5 +1,7 @@
 # Site settings
 title: Kid3 - Audio Tagger
+base_url: "kid3"
+
 
 # Build settings
 markdown: kramdown
